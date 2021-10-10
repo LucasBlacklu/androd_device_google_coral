@@ -220,6 +220,7 @@ endif
 # Graphics
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
+TARGET_USES_VULKAN := true
 
 # Adaptive charging
 PRODUCT_COPY_FILES += \
