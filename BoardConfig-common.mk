@@ -115,7 +115,6 @@ BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 # system_ext.img
 BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 
-# userdata.img
 TARGET_USERIMAGES_USE_F2FS := true
 
 # persist.img
