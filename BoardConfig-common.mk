@@ -207,6 +207,10 @@ endif
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 
+# Adaptive charging
+PRODUCT_COPY_FILES += \
+    device/google/coral/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
+
 # Display
 TARGET_USES_DISPLAY_RENDER_INTENTS := true
 TARGET_USES_COLOR_METADATA := true
