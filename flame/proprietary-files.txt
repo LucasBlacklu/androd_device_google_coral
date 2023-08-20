@@ -32,6 +32,10 @@ product/priv-app/HardwareInfo/HardwareInfo.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEMIDELTA.apk;PRESIGNED
 product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk;PRESIGNED
 
+# Motion sense
+product/app/MotionSenseBridgePrebuilt/MotionSenseBridgePrebuilt.apk;PRESIGNED
+system_ext/priv-app/OsloFeedback/OsloFeedback.apk
+
 # Permissions
 product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-lineage.xml
 product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
