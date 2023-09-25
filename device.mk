@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier
 
+# Remove few packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Use Sdcardfs
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sys.sdcardfs=1
