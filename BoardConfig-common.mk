@@ -222,6 +222,10 @@ DEVICE_MATRIX_FILE := device/google/coral/compatibility_matrix.xml
 # Intall device framework compatibility matrix to product partition
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE := device/google/coral/device_framework_matrix_product.xml
 
+# Disable sparse for ext/f2fs images
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := true
+
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
 
