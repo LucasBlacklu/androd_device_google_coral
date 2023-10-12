@@ -243,6 +243,10 @@ DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE := device/google/coral/device_framework
 # Needed for camera
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
 
+# Disable sparse for ext/f2fs images
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := true
+
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
 
