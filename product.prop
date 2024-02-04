@@ -116,3 +116,5 @@ bluetooth.profile.sap.server.enabled?=true
 
 # Graphics
 debug.sdm.support_writeback=0
+# Override region check for oslo
+pixel.oslo.allowed_override=1
