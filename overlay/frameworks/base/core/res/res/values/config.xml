@@ -522,6 +522,10 @@
         <item>com.google.oslo/com.google.oslo.OsloOverlay</item>
         <item>com.google.oslo/com.google.oslo.OsloSensorManager</item>
         <item>com.google.oslo/com.google.oslo.service.OsloService</item>
+
+      <!-- Motion sense -->
+        <item>oslo/media_app_whitelist=com.amazon.mp3,com.anghami,com.apple.android.music,com.aspiro.tidal,com.bsbportal.music,com.clearchannel.iheartradio.controller,com.ezpeer.ezpeerplus.v4,com.gaana,com.google.android.apps.youtube.music,com.google.android.music,com.hungama.myplay.activity,com.jio.media.jiobeats,com.ktmusic.geniemusic,com.neowiz.android.bugs,com.pandora.android,com.rhapsody,com.shazam.android,com.sirius,com.skysoft.kkbox.android,com.soundcloud.android,com.spotify.music,com.spotify.zerotap,deezer.android.app,fm.awa.liverpool</item>
+
     </string-array>
 
 </resources>
