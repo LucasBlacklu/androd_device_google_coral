@@ -516,4 +516,12 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <item>0:8:15</item> <!-- ID0:Face:Strong -->
     </string-array>
+
+    <!-- Force enable stock components if installed -->
+    <string-array name="config_forceEnabledComponents" translatable="false">
+        <item>com.google.oslo/com.google.oslo.OsloOverlay</item>
+        <item>com.google.oslo/com.google.oslo.OsloSensorManager</item>
+        <item>com.google.oslo/com.google.oslo.service.OsloService</item>
+    </string-array>
+
 </resources>
