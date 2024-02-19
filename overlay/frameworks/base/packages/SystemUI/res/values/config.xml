@@ -20,4 +20,8 @@
 <resources>
     <!-- Preferred refresh rate at keyguard, if supported by the display -->
     <integer name="config_keyguardRefreshRate">60</integer>
+
+    <!-- Dreamliner -->
+    <string name="config_dockComponent">com.google.android.systemui.dreamliner.WirelessChargerImpl</string>
+
 </resources>
