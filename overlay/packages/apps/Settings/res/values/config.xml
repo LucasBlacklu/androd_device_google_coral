@@ -39,5 +39,4 @@
     
     <!--Whether the Face enroll confirmation page show finish large icon. -->
     <bool name="config_face_enroll_confirmation_show_illustration">false</bool>
-
 </resources>
