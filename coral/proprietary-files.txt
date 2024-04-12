@@ -36,7 +36,7 @@ product/priv-app/HotwordEnrollmentOKGoogleHEMIDELTA/HotwordEnrollmentOKGoogleHEM
 product/priv-app/HotwordEnrollmentXGoogleHEMIDELTA/HotwordEnrollmentXGoogleHEMIDELTA.apk;PRESIGNED
 
 # Motion sense
-product/app/MotionSenseBridgePrebuilt/MotionSenseBridgePrebuilt.apk;PRESIGNED
+product/app/MotionSenseBridgePrebuilt/MotionSenseBridgePrebuilt.apk;PRESIGNED|f9360d89d83d3ac277920c0c9e4bac33acd2d0ad 
 system_ext/priv-app/OsloFeedback/OsloFeedback.apk
 
 # Permissions
