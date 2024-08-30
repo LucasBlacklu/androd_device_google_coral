@@ -25,11 +25,13 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_flame.mk \
     $(LOCAL_DIR)/aosp_coral_hwasan.mk \
     $(LOCAL_DIR)/aosp_flame_hwasan.mk \
-    $(LOCAL_DIR)/lineage_coral.mk \
-    $(LOCAL_DIR)/lineage_flame.mk
+    $(LOCAL_DIR)/derp_coral.mk \
+    $(LOCAL_DIR)/derp_flame.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_coral-trunk_staging-userdebug \
     aosp_flame-trunk_staging-userdebug \
-    lineage_coral-trunk_staging-userdebug \
-    lineage_flame-trunk_staging-userdebug
+    derp_coral-userdebug \
+    derp_flame-userdebug \
+    derp_coral-user \
+    derp_flame-user
