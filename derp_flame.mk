@@ -5,6 +5,7 @@
 #
 
 # Inherit some common Lineage stuff.
+TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit device configuration
