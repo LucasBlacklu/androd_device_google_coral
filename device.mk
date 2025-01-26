@@ -219,10 +219,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
-# ElmyraService 
-PRODUCT_PACKAGES += \
-	ElmyraService
-
 # Audio Features
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.external_dsp.enable=true \
